@@ -1,4 +1,5 @@
 // import CCoffee from "./components/CCoffee";
+import ContactForm from "./components/ContactForm";
 import FCoffee from "./components/FCoffee";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     {/* Class components */}
     {/* <CCoffee   firstName='Carlie' /> */}
     {/* function components */}
+    <ContactForm />
     <FCoffee firstName='Carlie'/>
     </>
   );
